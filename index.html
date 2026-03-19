@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz para programadores</title>
+    <link rel="stylesheet" href=".styles/style.css">
+    <link rel="shortcut icon" href="img13/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>quiz interativo para programadores</h1>
+        <p>testes os seus conhecimentos em programação e veja qual pontuação consegue fazer!</p>
+        <div class="cabecalho-menu">
+            <img src="img13/calideli.jpg" alt="calidelicia" class="cabecalho-menu-img">
+            <nav class="menu">
+                <a href="pontuacao.html">pontuação</a>
+                <a href="respostas.html">respostas</a>
+                <a href="contato.html">contatos</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <!-- pergunta 1 -->
+        <section>
+            <h2 class="container-secoes"> sobre esse quiz</h2>
+            <p>
+                este quiz foi desenvolvido para testar seus conhecimentos em programação, como liguagem de
+                programação,conceitos basicos e mais.
+            </p>
+            <p>
+                voce encontrara diferentes tipos de perguntas, icluindo multiplo escolhas, texto e perguntas de datas.
+                Desafie-se com este quiz.
+            </p>
+            <p>
+                voce podera encontrar algum acronicos como html e css, que sao comuente usados em questoes
+                relacionas-das ao desenvolcimento web
+            </p>
+
+            <section>
+                <h2 class="subtitulo">pertgunta 1: qual a linguagem é usada para estruturar paginas web</h2>
+                <form>
+                    <input type="radio" name="pergunta1" id="p1a">
+                    <label for="p1a">Python</label>
+                    <br>
+                    <input type="radio" name="pergunta1" id="p1b">
+                    <label for="p1b">HTML</label>
+                    <br>
+                    <input type="radio" name="pergunta1" id="p1c">
+                    <label for="p1c">Ruby</label>
+                    <br>
+                    <input type="radio" name="pergunta1" id="p1d">
+                    <label for="p1d">JavaScript</label>
+                </form>
+            </section>
+
+        </section>
+        <!-- pergunta 2 -->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                pergunta 2: na URL http://www.google.com o trecho "google.com" é o ____________.
+            </h2>
+            <form>
+                <input type="text" name="pergunta2" id="p2" placeholder="digite sua resposta...">
+            </form>
+
+        </section>
+        <!-- pergunta 3 -->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                pergunta 3: escreva um exemplo de senha forte
+            </h2>
+            <form>
+                <input type="password" name="pergunta3" id="p3" placeholder="digite uma senha forte..">
+            </form>
+        </section>
+        <!-- pergunta 4 -->
+        <section class="container-secoes">
+            <h2 class="subtitulo"> pergunta 4: em que ano o HTML lançou a sua primeira versao</h2>
+            <form>
+                <input type="date" name="pergunta4" id="p4" id="p4">
+            </form>
+        </section>
+        <!-- pergunta 5 -->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                Pergunta 5 : quais dessas tecnologias sao consideradas liguagens de programação?
+            </h2>
+            <form>
+                <input type="checkbox" name="pergunta5" id="p5a" value="JavaScript">
+                <label for="p5a">JavaScript</label>
+                <input type="checkbox" name="pergunta5" id="p5b" value="HTML">
+                <label for="p5b">html</label>
+                <input type="checkbox" name="pergunta5" id="p5c" value="CSS">
+                <label for="p5c">CSS</label>
+                <input type="checkbox" name="pergunta5" id="p5d" value="Java">
+                <label for="p5d">Java</label>
+            </form>
+        </section>
+        <!-- pergunta 6 -->
+        <section class="container-secoes">
+            <h2 class="subtitulo"> Pergunta 6: faça um upload de um arquivo contendo o codigo HTML.</h2>
+            <form>
+                <input type="file" name="pergunta6" id="p6">
+            </form>
+        </section>
+        <!-- pergunta 7 -->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                pergunta 7: selecione o atributo do input que define o seu tipo:
+            </h2>
+            <form>
+                <select name="pergunta7" id="p7"
+                class="menu-suspenso">
+                    <option value="" disabled selected>selecione</option>
+                    <option value="id">id</option>
+                    <option value="type">type</option>
+                    <option value="placeholder">placeholder</option>
+                </select>
+            </form>
+        </section>
+        <!-- pergunta 8 -->
+        <section class="container-secoes">
+            <h2 class="subtitulo">
+                pergunta 8: qual a linguagem de programação é reprensentada pelo logo tipo abaixo?
+            </h2>
+            <form>
+                <figure>
+                    <img src="img13/java_capa.webp" alt="java_capa" width="300px" class="figure-img">
+                    <figcaption>
+                        figura 1: logotipo de um linguagem de programação
+                    </figcaption>
+                </figure>
+                <form>
+                    <input type="text" name="pergunta8" id="p8" placeholder="digite sua resposta..">
+                </form>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+      <p> 
+        &copy quiz de programação.Todos os direitos reservados
+     </p>
+      <p>
+        para conhecer mais sobre mim 
+        <a href="https://github.com/isabellanave/portifolio.git" class="footer-link" target="_blank">clique aqui</a>
+      </p>
+    </footer>
+</body>
+
+</html>

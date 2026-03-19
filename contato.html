@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pontuacao</title>
+</head>
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>quiz para programadores</title>
+        <link rel="stylesheet" href=".styles/stylecontato.css">
+        <link rel="shortcut icon" href="img13/favicon-32x32.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <h1>quiz interativo para programadores</h1>
+            <p>testes os seus conhecimentos em programação e veja qual pontuação consegue fazer!</p>
+            <div class="cabecalho-menu">
+                <a href="index.html"> <img src="img13/calideli.jpg" alt="calidelicia" class="cabecalho-menu-img"></a>
+                <nav class="menu">
+                    <a href="pontuacao.html">pontuação</a>
+                    <a href="respostas.html">respostas</a>
+                    <a href="contato.html">contatos</a>
+                </nav>
+            </div>
+        </header>
+        <main class="container">
+            <h2 class="subtitulo"> Nos dê o seu feedback</h2>
+            <form>
+                <fieldset>
+                    <legend> informações de contato</legend>
+                    <label for="nome"> Nome: </label>
+                    <input type="text" name="Nome"
+                    id="Nome"placeholder= "digite seu nome" required>
+                    <label for="email"> Email: </label>
+                    <input type="email" name="email"
+                    id="email" placeholder="exemplo@.com.br" required> <br>
+                    <label for="comentario"> Comentário: </label> <br>
+                    <textarea name="comentario" id="comentario" placeholder="digite seu comentário aqui..." cols="70" rows="10"></textarea>
+                    <button type="submit"> Concluído </button>
+
+                </fieldset>
+            </form>
+            <button onclick="alert('quiz enviado')"> Enviar quiz </button>
+        </main>
+
+        <footer class="rodape">
+            <p>
+                &copy quiz de programação.Todos os direitos reservados
+            </p>
+            <p>
+                para conhecer mais sobre mim
+                <a href="https://github.com/isabellanave/portifolio.git" class="footer-link" target="_blank">clique
+                    aqui</a>
+            </p>
+        </footer>
+    </body>
+
+</html>

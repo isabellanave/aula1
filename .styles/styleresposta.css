@@ -1,0 +1,17 @@
+@import url(style.css);
+details{
+    background-color: rgba(0, 0, 0, 0.245);
+    padding: 45px;
+    border-radius: 5px;   
+}
+summary{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+ol{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+li{
+    padding: 5px;
+}
